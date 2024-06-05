@@ -1,0 +1,28 @@
+{
+  "name": "logspeed",
+  "version": "1.0.1",
+  "description": "A simple class for logging execution speed of code blocks.",
+  "main": "dist/logspeed.js",
+  "types": "dist/logspeed.d.ts",
+  "scripts": {
+    "build:cjs": "tsc --module commonjs --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunal00000/logspeed.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "readme": "README.md",
+  "homepage": "https://github.com/kunal00000/logspeed#readme",
+  "author": "Kunal Verma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  }
+}
