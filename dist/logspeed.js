@@ -60,7 +60,7 @@ var Logspeed = /** @class */ (function () {
         console.log("\u250C".concat(separator, "\u2510"));
         console.log('\x1b[30m%s\x1b[0m', " Performance Report (\u001B[36m".concat(this.name, "\u001B[0m)"));
         console.log("\u251C".concat(separator, "\u2524"));
-        console.log('\x1b[30m%s\x1b[0m', 'Checkpoint'.padEnd(28) +
+        console.log('\x1b[30m%s\x1b[0m', ' Checkpoint'.padEnd(28) +
             'Elapsed (ms)'.padEnd(15) +
             'Total (ms)'.padEnd(15));
         console.log("\u251C".concat(separator, "\u2524"));

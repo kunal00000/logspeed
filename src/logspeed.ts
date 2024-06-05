@@ -75,7 +75,7 @@ export class Logspeed {
     console.log(`├${separator}┤`);
     console.log(
       '\x1b[30m%s\x1b[0m',
-      'Checkpoint'.padEnd(28) +
+      ' Checkpoint'.padEnd(28) +
         'Elapsed (ms)'.padEnd(15) +
         'Total (ms)'.padEnd(15)
     );
