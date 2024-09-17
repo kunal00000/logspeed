@@ -70,7 +70,7 @@ logspeed.report();
 
 **Where I Got the Idea**
 
-I've often found myself wanting to understand how much time tasks like image generation, ChatGPT responses, or complex calculations take. Logspeed was created to provide a simple and effective way to measure these durations, making it easier to optimize and debug my code.
+I've often found myself wanting to understand how much time tasks like image generation, LLM responses, or complex calculations take. Logspeed was created to provide a simple and effective way to measure these durations, making it easier to optimize and debug my code.
 
 **Contribution**
 
